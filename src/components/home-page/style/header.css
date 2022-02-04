@@ -1,0 +1,25 @@
+.header-img {
+  height: 30vh;
+  background-image: url("../assets/kur1.JPG"), url("../assets/kur2.jpg");
+
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header-nav {
+  background-color: var(--nav);
+  position: sticky;
+  top: 0;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 1vw 3vw;
+  display: inline-block;
+  border: 2px solid var(--nav);
+}
+.header-nav a:hover {
+  background: #86688f;
+  border: 2px solid #71537a;
+  border-radius: 3px;
+}
